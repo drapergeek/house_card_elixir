@@ -35,8 +35,6 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :house_card_web, HouseCardWeb.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
   database: "house_card_web_dev",
   hostname: "localhost",
   pool_size: 10
